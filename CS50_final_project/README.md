@@ -1,6 +1,6 @@
 # CALORIE WIZARD - CS50P Final Project
 
-#### Video Demo:  <https://youtu.be/uQmwRsYKclk>
+#### Video Demo:  <https://youtu.be/dLt96q8e7hI>
 #### Description:
 Calorie Wizard is my CS50P Final Project. It’s a Python program that works out your daily calorie needs for whether you want to gain weight or lose weight. You enter your details such as age, sex, height, and weight and the program calculates either your **BMR** (a quick baseline estimate) or your **total MET-hours** (a more precise value for daily expenditure based on what you do in a day) depending on whether you want an approximate or more precise value for your TDEE. Once a TDEE value is calculated, some further calculations are carried out and a table is produced using the `rich` library, showing **bulking** (calorie surplus) and **cutting** (calorie deficit) kcal targets at ranges mild, moderate, and fast. It also contains estimates for **weekly bodyweight change** (using a quadratic formula that takes the fractional surplus/deficit and turns it into a projected weekly gain or loss based on observed scientific data), as well as a short sentence describing the **outcome** from consuming X amount of kcal.
 
